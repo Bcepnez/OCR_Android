@@ -11,21 +11,38 @@
     android:padding="16dp">
 
     <SurfaceView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/surface_view"></SurfaceView>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/surface_view"
+        android:layout_centerInParent="true"></SurfaceView>
+
 
     <TextView
+        android:id="@+id/text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/text_view"
-        android:text="No text"
         android:layout_alignParentBottom="true"
-        android:textSize="20sp"
+        android:text="No text"
         android:textColor="@android:color/white"
-
-
+        android:textSize="20sp"
         />
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="No text"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        />
+
+    <!--<Button-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:text="camera" />-->
 
 </RelativeLayout>
 
